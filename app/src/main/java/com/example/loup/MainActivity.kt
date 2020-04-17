@@ -2,6 +2,7 @@ package com.example.loup
 
 import android.graphics.Point
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -44,5 +45,6 @@ class MainActivity : AppCompatActivity() {
         grillePerso.addView(button_dynamic3)
         grillePerso.addView(button_dynamic4)
         grillePerso.addView(button_dynamic5)
+
     }
 }
