@@ -1,4 +1,4 @@
-package com.example.loup
+package com.example.loup.charaters
 
 abstract class Character {
     abstract var name : String
