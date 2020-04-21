@@ -7,6 +7,6 @@ class AlphaWerewolf(override var name: String = "Loup Alpha",
                     override var team: String = "Loup"
 ) : Character() {
     override fun action() {
-        Log.d("_______Action","Loup alpha")
+        Log.d("_______Action",name)
     }
 }

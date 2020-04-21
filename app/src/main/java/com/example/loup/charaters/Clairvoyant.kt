@@ -8,6 +8,6 @@ class Clairvoyant(
     override var team: String = "Villageoise"
 ) : Character() {
     override fun action() {
-        Log.d("_______Action","Voyante")
+        Log.d("_______Action",name)
     }
 }
